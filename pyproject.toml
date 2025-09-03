@@ -1,7 +1,17 @@
 [project]
 name = "perfect-bracket"
 version = "0.1.0"
-description = "Add your description here"
+description = "Data science project to predict the NCAA basketball bracket"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.2",
+    "polars>=1.33.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.7.0",
+    
+]
